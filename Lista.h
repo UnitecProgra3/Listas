@@ -14,6 +14,9 @@ class Lista
         virtual ~Lista();
         void imprimir();
         void agregarNodo(Nodo*n);
+        bool agregarNodo(Nodo*n,int pos);
+        void borrarUltimo();
+        bool borrarNodo(int pos);
     protected:
     private:
 };
