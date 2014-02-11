@@ -97,8 +97,20 @@ bool Lista::borrarNodo(int pos)
     }
     int i=0;
     for(temp=inicio;
-        temp!=NULL;
-        temp=temp->sig);
-
+        temp!=NULL && i<pos-1;
+        temp=temp->sig)
+    {
+        i++;
+    }
+    if(temp!=NULL)
+    {
+        Nodo*t2=temp->sig->sig;
+        delete temp->sig;
+        temp->sig=t2;
+        return true;
+    }else
+    {
+        return false;
+    }
 }
 
