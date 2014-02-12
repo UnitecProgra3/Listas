@@ -15,6 +15,8 @@ class ListaDoble
 
         void imprimir();
         void agregarNodo(NodoDoble*nodo);
+        void borrarUltimo();
+        void agregarNodo(NodoDoble*nodo,int pos);
     protected:
     private:
 };

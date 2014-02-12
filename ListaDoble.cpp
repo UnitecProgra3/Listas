@@ -33,3 +33,38 @@ void ListaDoble::agregarNodo(NodoDoble*n)
         n->ant=temp;
     }
 }
+
+void ListaDoble::borrarUltimo()
+{
+    NodoDoble*temp;
+    for(temp=inicio;
+        temp->sig->sig!=NULL;
+        temp=temp->sig)
+    {
+    }
+    delete temp->sig;
+    temp->sig=NULL;
+}
+
+void ListaDoble::agregarNodo(NodoDoble*nodo,int pos)
+{
+    NodoDoble*temp=inicio;
+    for(int i=0; i<pos-1; i++)
+    {
+        temp=temp->sig;
+        if(temp==NULL)
+            return;
+    }
+    temp->sig->ant=nodo;
+    nodo->sig=temp->sig;
+    nodo->ant=temp;
+    temp->sig=nodo;
+}
+
+
+
+
+
+
+
+

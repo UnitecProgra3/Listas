@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1392142564 source:/home/turupawn/Projects/Codeblocks/Archivos/main.cpp
+1392228331 source:/home/turupawn/Projects/Codeblocks/Archivos/main.cpp
 	<iostream>
 	<fstream>
 	"ListaDoble.h"
@@ -14,10 +14,10 @@
 
 1392141970 /home/turupawn/Projects/Codeblocks/Archivos/Lista.h
 
-1392142537 source:/home/turupawn/Projects/Codeblocks/Archivos/ListaDoble.cpp
+1392229117 source:/home/turupawn/Projects/Codeblocks/Archivos/ListaDoble.cpp
 	"ListaDoble.h"
 
-1392142574 /home/turupawn/Projects/Codeblocks/Archivos/ListaDoble.h
+1392228578 /home/turupawn/Projects/Codeblocks/Archivos/ListaDoble.h
 	<iostream>
 	"NodoDoble.h"
 

@@ -34,8 +34,12 @@
 		</Compiler>
 		<Unit filename="Lista.cpp" />
 		<Unit filename="Lista.h" />
+		<Unit filename="ListaDoble.cpp" />
+		<Unit filename="ListaDoble.h" />
 		<Unit filename="Nodo.cpp" />
 		<Unit filename="Nodo.h" />
+		<Unit filename="NodoDoble.cpp" />
+		<Unit filename="NodoDoble.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
