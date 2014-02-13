@@ -63,7 +63,7 @@ void ListaDoble::agregarNodo(NodoDoble*nodo,int pos)
 
 void ListaDoble::borrarNodo(int pos)
 {
-    if(inicio==NULL)
+    if(inicio==NULL || pos<0)
         return;
 
     if(pos==0)
@@ -83,7 +83,8 @@ void ListaDoble::borrarNodo(int pos)
                 return;
             }
         }
-        temp->sig->ant=temp->ant;
+        if(temp->sig!=NULL)
+            temp->sig->ant=temp->ant;
         temp->ant->sig=temp->sig;
         delete temp;
     }
