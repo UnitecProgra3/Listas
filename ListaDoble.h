@@ -17,6 +17,7 @@ class ListaDoble
         void agregarNodo(NodoDoble*nodo);
         void borrarUltimo();
         void agregarNodo(NodoDoble*nodo,int pos);
+        void borrarNodo(int pos);
     protected:
     private:
 };
